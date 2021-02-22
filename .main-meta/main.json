@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.avr128da48-qt8-touch-surface-example-studio",
-        "version": "1.0.0",
-        "displayName": "Touch Surface example using QT8 and AVR128DA48",
+        "version": "1.0.1",
+        "displayName": "Touchpad example using QT8 and AVR128DA48",
         "projectName": "avr128da48-qt8-touch-surface-example-studio",
-        "shortDescription": "This example demonstrates touch surface application using AVR128DA48 Curiosity Nano with Curiosity Nano Touch Adapter Kit and QT8 surface Extension board.",
+        "shortDescription": "This example demonstrates touchpad application using AVR128DA48 Curiosity Nano with Curiosity Nano Touch Adapter Kit and QT8 surface Extension board.",
         "ide": {
             "name": "STUDIO",
             "semverRange": ">=7.0.2542"
@@ -63,7 +63,8 @@
             "Sensor",
             "Sensors",
             "Touch sensing",
-            "PTC"
+            "PTC",
+            "Touchpad"
         ],
 		"additionalData": {
 			"longDescription": {

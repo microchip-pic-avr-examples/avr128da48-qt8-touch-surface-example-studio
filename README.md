@@ -1,9 +1,9 @@
 <!-- Please do not change this logo with link -->
 [![MCHP](images/microchip.png)](https://www.microchip.com)
 
-# Touch Surface Example using QT8 and AVR128DA48 Curiosity Nano
+# Touchpad Example using QT8 and AVR128DA48 Curiosity Nano
 
-This example demonstrates touch application on AVR128DA48 Curiosity Nano with QT8 surface extension board. The example project provides user feedback to touch either using the QT8 onboard LEDS, or to a PC running Microchip 2D Surface Utility via USB.
+This example demonstrates touchpad application on AVR128DA48 Curiosity Nano with QT8 surface extension board. The example project provides user feedback to touch either using the QT8 onboard LEDS, or to a PC running Microchip 2D Surface Utility via USB.
 
 ## Related Documentation
 
