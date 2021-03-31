@@ -3,7 +3,7 @@
 
 # Touchpad Example using QT8 and AVR128DA48 Curiosity Nano
 
-This example demonstrates touchpad application on AVR128DA48 Curiosity Nano with QT8 surface extension board. The example project provides user feedback to touch either using the QT8 onboard LEDS, or to a PC running Microchip 2D Surface Utility via USB.
+This example demonstrates touchpad application on AVR128DA48 Curiosity Nano with QT8 surface extension board. The example project provides user feedback to touch using a PC running Microchip 2D Surface Utility via USB.
 
 ## Related Documentation
 
@@ -36,12 +36,7 @@ This example demonstrates touchpad application on AVR128DA48 Curiosity Nano with
 3. By default, UART communication is enabled to send data to Microchip Surface Utility (KRONOCOMM_UART macro in touch.h file is 1u).
 4. Open Microchip 2D Touch Surface Utility and select UART with 38400 baud rate and click OK.
 5. Surface status will be displayed on the utility.
-6. To enable LED status:
-   - Disable the UART communication by setting KRONOCOMM_UART macro to 0u in touch.h file
-   - Enable LED driver by setting ENABLE_LED macro to 1u in led_driver.c file
-7. Close the 2D Surface Utility.
-8. Rebuild and program the target.    
-    NOTE: Either LED or Kronocomm should be enabled, not both simultaneously. Running both will cause 2D utility debug data transmission to be delayed. 
+
 
 ## Summary
 
